@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Item Management</h1>
+        
+        <!-- Form for creating and updating items -->
+        <form id="item-form">
+            <input type="hidden" id="item-id">
+            <input type="text" id="item-name" placeholder="Enter item name" required>
+            <button type="submit" id="submit-btn">Add Item</button>
+            <button type="button" id="cancel-btn" class="hidden">Cancel</button>
+        </form>
+
+        <!-- List to display items -->
+        <h2>Items List</h2>
+        <ul id="item-list">
+            <!-- Items will be dynamically inserted here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
