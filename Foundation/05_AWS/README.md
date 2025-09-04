@@ -74,10 +74,10 @@ docker push uniquejn30/mydrive:tagname
 | Operation                     | Screenshot                                |
 |------------------------------|--------------------------------------------|
 | ✅ Home             | ![Weather](Screenshots/01_Home_Page.png) |
-| ✅ Signup            | ![Error](Screenshots/02_Signup_Page.png) |
+| ✅ SignIn            | ![Error](Screenshots/02_Signup_Page.png) |
 | ✅ Dashboard          | ![Error](Screenshots/03_Dashboard_Page.png) |
 | ✅ Upload Files         | ![Error](Screenshots/04_Upload_file.png) |
-| ✅ Download & deleted files             | ![Upload](Screenshots/05_Download_&_Delete_file.png) |
+| ✅ Download & delete files             | ![Upload](Screenshots/05_Download_&_Delete_file.png) |
 
 ## Watch Demo Video  
 - https://drive.google.com/file/d/1yM0N0JXN92yiYBVSlEPMYYqL8wBvRWUK/view?usp=sharing
