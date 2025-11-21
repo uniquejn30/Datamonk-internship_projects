@@ -1,4 +1,3 @@
-# etl/transform_hourly_to_daily.py
 import polars as pl
 from deltalake.writer import write_deltalake
 import os
