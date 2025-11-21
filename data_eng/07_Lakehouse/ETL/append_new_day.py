@@ -1,4 +1,3 @@
-# etl/append_new_day.py
 import polars as pl
 from deltalake.writer import write_deltalake
 import pandas as pd
