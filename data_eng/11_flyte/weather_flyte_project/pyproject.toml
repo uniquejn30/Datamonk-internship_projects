@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-flyte-pipeline"
+version = "0.1.0"
+description = "Weather Data Pipeline using Flyte"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+
+dependencies = [
+  "flytekit",
+  "requests",
+  "python-dotenv"
+]
